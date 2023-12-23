@@ -17,7 +17,7 @@ using System.IO.Compression;
 
 namespace Server.Envir
 {
-    public static class WebServer
+    public static class WebServer //类
     {
         public static ConcurrentQueue<WebCommand> WebCommandQueue;
         public static bool WebServerStarted { get; set; }
